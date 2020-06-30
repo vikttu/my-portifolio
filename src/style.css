@@ -24,15 +24,15 @@ html, body {
 }
 
 .myTitle {
-    font-size: 900%;
+    font-size: 11vw;
     font-weight: bold;
-    margin: 1%;
+    margin: 1vw;
 }
 
 .mySubtitle {
-    font-size: 100%;
+    font-size: 1.3vw;
     font-weight: normal;
-    margin: 1%;
+    margin: 1vw;
 }
 
 @font-face {
