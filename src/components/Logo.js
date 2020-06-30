@@ -9,7 +9,7 @@ function Logo() {
         borderColor: 'black',
         borderWidth: '10px',
         position: 'fixed',
-        backgroundColor: 'white',
+        backgroundColor: '#ffffff',
         top: '0',
         left: '20vw',
         bottom: '0',
@@ -34,7 +34,7 @@ function Logo() {
   //  }
 
     return (
-    <div style={styles}>
+    <div style={styles} onClick={titleStyle.fontSize ='1vw'}>
         <p style={titleStyle}>{iconTitle}</p>
         <p style={subTitleStyle}>{subtTitle}</p>
     </div>
