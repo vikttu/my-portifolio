@@ -7,34 +7,6 @@ html, body {
     min-height: 100%;
 }
 
-.logo {
-    border-style: solid;
-    border-color: black;
-    border-width: 10px;
-    position: fixed;
-    top: 0;
-    left: 20%;
-    bottom: 0;
-    right: 20%;
-    overflow: auto;
-    width: auto;
-    text-align: center;
-    text-justify: inter-word;
-
-}
-
-.myTitle {
-    font-size: 11vw;
-    font-weight: bold;
-    margin: 1vw;
-}
-
-.mySubtitle {
-    font-size: 1.3vw;
-    font-weight: normal;
-    margin: 1vw;
-}
-
 @font-face {
     font-family: Kollektif;
     src: url(assets/kollektif/Kollektif.ttf);
