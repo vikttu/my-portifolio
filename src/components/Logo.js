@@ -34,7 +34,7 @@ function Logo() {
   //  }
 
     return (
-    <div style={styles} onClick={titleStyle.fontSize ='1vw'}>
+    <div style={styles}>
         <p style={titleStyle}>{iconTitle}</p>
         <p style={subTitleStyle}>{subtTitle}</p>
     </div>
