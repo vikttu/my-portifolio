@@ -29,12 +29,8 @@ function Logo() {
         margin: '1vw'
     }
 
-    //    if () {
-
-  //  }
-
     return (
-    <div style={styles}>
+    <div style={styles} onClick={() => (console.log("ah lelek"))}>
         <p style={titleStyle}>{iconTitle}</p>
         <p style={subTitleStyle}>{subtTitle}</p>
     </div>
