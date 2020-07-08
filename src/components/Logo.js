@@ -4,15 +4,15 @@ import React from 'react'
 function Logo() {
     const iconTitle = 'VIKTOR NESPOLO PEIXOTO'
     const subtTitle = 'WEB DEVELOPER'
-    const styles = {
+    const divStyles = {
         borderStyle: 'solid',
         borderColor: 'black',
         borderWidth: '10px',
         position: 'fixed',
         backgroundColor: '#ffffff',
-        top: '0',
+        top: '1vw',
         left: '20vw',
-        bottom: '0',
+        bottom: '1vw',
         right: '20vw',
         padding: '1vw',
         textAlign: 'center',
@@ -30,7 +30,7 @@ function Logo() {
     }
 
     return (
-    <div style={styles} onClick={() => (console.log("ah lelek"))}>
+    <div style={divStyles} onClick={() => (console.log("ah lelek"))}>
         <p style={titleStyle}>{iconTitle}</p>
         <p style={subTitleStyle}>{subtTitle}</p>
     </div>
